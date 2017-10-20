@@ -1,4 +1,4 @@
-package com.swisscom.cdc.pact.jvm.consumer.dsl;
+package io.pactfoundation.consumer.dsl;
 
 import au.com.dius.pact.consumer.dsl.DslPart;
 import au.com.dius.pact.consumer.dsl.PactDslJsonBody;

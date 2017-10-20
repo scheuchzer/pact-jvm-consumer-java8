@@ -71,14 +71,14 @@ When you come accross the `body()` method of `PactDslWithProvider` builder start
 The call to `LambdaDsl` replaces the call to instance `new PactDslJsonArray()` and `new PactDslJsonBody()` of the pact library.
 
 ```java
-com.swisscom.cdc.pact.jvm.consumer.dsl.LambdaDsl.*
+io.pactfoundation.consumer.dsl.LambdaDsl.*
 ```
 
 ### Response body as json array
 
 ```java
 
-import static com.swisscom.cdc.pact.jvm.consumer.dsl.LambdaDsl.newJsonArray;
+import static io.pactfoundation.consumer.dsl.LambdaDsl.newJsonArray;
 
 ...
 
@@ -99,7 +99,7 @@ builder.given("some state")
 
 ```java
 
-import static com.swisscom.cdc.pact.jvm.consumer.dsl.LambdaDsl.newJsonBody;
+import static io.pactfoundation.consumer.dsl.LambdaDsl.newJsonBody;
 
 ...
 
